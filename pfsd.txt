@@ -1,0 +1,35 @@
+*  
+  create a directory called as media parallel to the apps.
+* 
+   copy the media files
+   images 
+   vedios
+   audiosetc.
+*
+    open pycham 
+    open settings.py
+    in settings.py import os
+    MEDIA_ROOT = os.path.join(BASE_DIR,"media)
+    MEDIA_URL = '/media/'
+
+jid = models.AutoField(primary_key=True)
+jname = models.CharField
+
+classStudent(models.Model);
+ sid= models.AutoField(primary_key=True)
+ sname= models.Charfield(max_length=55)
+
+inorder to display the values we need to create a route and which it return a templete along with the list of regard s
+some of important methods are is _value
+save 
+all
+
+filter 
+filter_by
+Q
+iexact
+first
+last 
+the above methods are used instead odf dbms commands
+
+ 
